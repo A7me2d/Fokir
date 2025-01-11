@@ -1,272 +1,462 @@
-<html>
-    <head>
-      <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&family=Source+Sans+3&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fokir</title>
+    <!-- Meta  -->
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. Explore my projects, skills, and experience in web development and design."
+    />
+    <meta
+      name="description"
+      content="I am a passionate web developer with a strong background in front-end and back-end technologies. Check out my portfolio to see my latest projects."
+    />
+    <meta
+      name="description"
+      content="I specialize in creating responsive and user-friendly websites. Take a look at my portfolio to see examples of my work."
+    />
 
-      <!-- NAVBAR -->
-
-      <div class="NAVBAR">
+    <meta
+      name="keywords"
+      content="front-end designe html css javascript responsive"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Cairo:wght@300;400;700&family=Roboto&family=Roboto+Slab:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Media Query -->
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/mediate.css" />
+  </head>
+  <body>
+    <!-- Start Nav -->
+    <nav>
+      <div class="container">
         <div class="logo">
-         <h2>Fokir</h2>
-          </div>
-          <div class="nav-list">
-            <ul>
-                
-                <li> <a>Home</a> </li>
-                    <li> <a>About</a> </li>
-                        <li> <a>Services</a></li> 
-                            <li> <a>Portfolio</a> </li>
-                                <li>  <a>Testimonial</a> </li>
-                                <li>  <a>Blog</a> </li>
-                                    <li>  <a>Contact</a> </li>
-                
-            </ul>
+          <a href="#nav">fokir</a>
         </div>
-        <div class="clr"></div>
-     </div>
-
-      <!-- HOME  -->
-
-<div id="home">
-  <div class="home-caption">
-    <h3>Hello i'm</h3>
-     <span>Ahmed Hany</span>
-     <h4>
-      <a>Professional Web</a>
-      <div class="message">
-        <div class="word1">Designer</div>
-        <div class="word2">Developer</div>
-        <div class="word3">Designer</div>
-      </div>
-    </h4>
-  </div>
-  </div>
-
-<!-- About -->
-
-  <div class="about">
-    <div class="cont">
-    <div class="img">
-    <img src="./img/about.jpg" alt="..">
-    <div id="layer">
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-google"></i>
-      <i class="fa-brands fa-github"></i>
-    </div>
-  </div>
-  </div>
-    <div class="about-caption">
-    <h2> HELLO</h2>
-    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
-    <div class="profile-about">
-      <ul>
-          <li><span>Name:</span> Rdam smith</li>
-          <li><span>Job Title:</span> UI/UX Designer</li>
-          <li><span>Age:</span> 26 Year</li>
-          </ul>
-          <ul id="profile-about2">
-          <li><span>Location:</span> United States, US</li>
-          <li><span>Freelance:</span> Available</li>
-          <li><span>E-mail:</span> <a href="#">example@gmail.com</a></li>
+        <div class="bars">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#portfolio">portfolio</a>
+          </li>
+          <li>
+            <a href="#testmonials">testmonials</a>
+          </li>
+          <li>
+            <a href="#blog">blog</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
         </ul>
-      
-
-  </div>
-  <div class="clr"></div>
-
-  <div class="btn">
-    <button class="down-btn">Download CV</button>
-
-    <button class="me-btn">Hire Me</button>
-
-     
-   </div>
-
-</div>
-
-  </div>
-  
-
-  <!-- Our Services -->
-
-  <div class="our">
-    
-      <h3>Our Services</h3>
-      <div class="Servicess">
-      <div class="cap">
-        <i class="fa-solid fa-pen-ruler"></i>        <h2>UI/UX DESIGN</h2>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</P>
-        
+        <div class="clear-fix"></div>
       </div>
-      <div class="cap">
-        <i class="fa-solid fa-laptop-code"></i>
-        <h2>APP DEVELOPMENT</h2>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</P>
-
+    </nav>
+    <!-- End Nav -->
+    <!-- Start Hero -->
+    <section id="home" class="hero">
+      <div class="content">
+        <p class="title">Hello i'm</p>
+        <h1 id="typewriter">ALEX SMITH</h1>
+        <h4 id="label"></h4>
       </div>
-      <div class="cap">
-        <i class="fa-solid fa-chart-pie"></i>     
-       <h2>PRODUCT DESIGN</h2>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</P>
-
-      </div>
-      <div class="cap">
-        <i class="fa-solid fa-gears"></i>
-        <h2>UI/UX DESIGN</h2>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</P>
-
-      </div>
-    </div>
-    <div class="clr"></div>
-
-  </div>
-
-  <!-- PRO -->
-  <div class="Portfolio">
-    <h2>Our Portfolio</h2>
-    <div class="barr">
-      <button class="barr-all">All</button>
-      <button class="barr-all">GRAPHIC</button>
-      <button class="barr-all">WEB DESIGN</button>
-      <button class="barr-all">BRANDING</button>  
-    </div>
-<div id="memebers">
-    <div class="mamber">
-      <img  src="./portfolio/1.jpg" alt="..">
-      <div class="layy">
-      </div>
-    </div>
-    <div class="mamber">
-      <img  src="./portfolio/2.jpg" alt="..">
-      <div class="layy">
-      </div>
-      </div>
-    <div class="mamber">
-      <img  src="./portfolio/3.jpg" alt="..">
-      <div class="layy">
-      </div>
-    </div>
-    <br>
-    <div class="mamber">
-      <img  src="./portfolio/4.jpg" alt="..">
-      <div class="layy">
-      </div>
-    </div>
-    <div class="mamber">
-      <img  src="./portfolio/5.jpg" alt="..">
-      <div class="layy">
-      </div>
-    </div>
-    <div class="mamber">
-      <img  src="./portfolio/6.jpg" alt="..">
-      <div class="layy">
+    </section>
+    <!-- End Hero -->
+    <!-- Start About -->
+    <div id="about" class="about main-style">
+      <div class="container">
+        <div class="img">
+          <img src="./images/about.jpg" alt="myImage" />
+          <div class="inner">
+          <div class="overlay">
+            <div class="icnos">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+        <div class="info">
+          <h2>hello,</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="profile-about">
+            <ul>
+              <li>
+                <span>name:</span>
+                <span> rdam smith </span>
+              </li>
+              <li>
+                <span>age:</span>
+                <span> 26 year </span>
+              </li>
+              <li>
+                <span>Freelance:</span>
+                <span> available </span>
+              </li>
+              <li>
+                <span>job title:</span>
+                <span> front-end developer </span>
+              </li>
+              <li>
+                <span>location:</span>
+                <span> united states ,US </span>
+              </li>
+              <li>
+                <span>email:</span>
+                <span> dev@marobakr.com </span>
+              </li>
+              <li>
+                <span>name:</span>
+                <span> rdam smith </span>
+              </li>
+            </ul>
+            <div class="btn">
+              <button>
+                download cv
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <button>
+                hire me
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="clear-fix"></div>
       </div>
     </div>
-   </div>
-    </div>
-    <div class="clr"></div>
-  </div>
-
-<!-- some icon -->
-
-<div class="team">
-   <div class="cen">
-    <i class="fa-solid fa-users"></i>
-         <h3>88</h3>
-     <h5>Team members</h5>
-   </div>
-   <div class="cen">
-    <i class="fa-regular fa-file"></i>
-         <h3>151</h3>
-     <h5>Complete Projects</h5>
-   </div>
-   <div class="cen">
-    <i class="fa-solid fa-cloud-arrow-down"></i>
-         <h3>792</h3>
-     <h5>Files Downloaded</h5>
-   </div>
-   <div class="cen">
-    <i class="fa-solid fa-mug-saucer"></i>
-         <h3>528</h3>
-     <h5>Lines Of Code</h5>
-   </div>
-</div>
-
-
-<!-- Feed back -->
-
-<div class="client">
-  <h2>Client's Feedback</h2>
-  <div class="card">
-    <img src="./img/feedback.jpg">
-    <h3>Aled ander</h3>
-    <h5><i></i>United</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.</p>
-    
-    <div class="kl">
-    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
-  </div>
-</div>
-</div>
-
-
-<!-- Our Blog -->
-
-<div class="color">
-  <div class="blog">
-    <h2>Our Blog</h2>
-    <div class="tube">
-      <img src="./blog/12.jpg">
-       <h4>23 November, 2015</h4>
-       <h3>Web Design Blog Post</h3>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
-       <button>READ MORE</button>
-    </div>
-    <div class="tube">
-      <iframe src="https://www.youtube.com/embed/uVju5--RqtY?si=vnVEfCRqa0SGJnIe"></iframe>   
-       <h4>23 November, 2015</h4>
-       <h3>Web Design Blog Post</h3>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
-       <button>READ MORE</button>
-    </div>
-    <div class="tube">
-      <img src="./blog/32.jpg">
-       <h4>23 November, 2015</h4>
-       <h3>Web Design Blog Post</h3>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
-       <button>READ MORE</button>
-    </div>
-  </div>
-  <div class="clr"></div>
-</div>
-
-<!-- END -->
-<div class="end">
-  <h1>Contact Me</h1>
-  <form>
-    <div class="ends" >
-      <label for="email"></label>
-      <input type="email" id="email" name="email" placeholder="Email" required>
-    
-      <label for="name"></label>
-      <input type="text" id="name" name="name" placeholder="Name" required>
-    </div>
-      <label for="subject"></label>
-      <input type="text" id="subject" name="subject" placeholder="subject" required>
-      
-      <label for="message"></label>
-      <textarea id="message" name="message" rows="4" cols="50" placeholder="Massage for me" required></textarea>
-      
-      <button id="hh" type="submit">SEND MASSAAGE</button>
-        
+    <!-- End About -->
+    <!-- Start Services -->
+    <div id="services" class="services main-style">
+      <div class="main-title">
+        <h2>our services</h2>
       </div>
-
-    </body>
+      <div class="container">
+        <div class="item">
+          <div class="inner">
+            <i class="fa-brands fa-css3"></i>
+            <h3>UI/UX DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner">
+            <i class="fa-solid fa-database"></i>
+            <h3>APP DEVELOPMENT</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner">
+            <i class="fa-solid fa-code"></i>
+            <h3>PRODUCT DESIGN</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="inner">
+            <i class="fa-solid fa-gear"></i>
+            <h3>problem solving</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+              adipisci mollitia quis necstatibus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <div id="portfolio" class="main-style portfolio">
+      <div class="container">
+        <div class="main-title">
+          <h2>our portfolio</h2>
+        </div>
+        <div class="btn-filter">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="graphic">Graphic</button>
+          <button data-filter="web-design">Web Design</button>
+          <button data-filter="branding">Branding</button>
+        </div>
+        <div class="row">
+          <div class="img" data-category="web-design">
+            <img src="./images/portfolio/1.jpg" alt="portfolio" />
+          </div>
+          <div class="img" data-category="web-design">
+            <img src="./images/portfolio/2.jpg" alt="portfolio" />
+          </div>
+          <div class="img" data-category="graphic">
+            <img src="./images/portfolio/3.jpg" alt="portfolio" />
+          </div>
+          <div class="img" data-category="graphic" data-category="web-design">
+            <img src="./images/portfolio/4.jpg" alt="portfolio" />
+          </div>
+          <div class="img" data-category="branding">
+            <img src="./images/portfolio/5.jpg" alt="portfolio" />
+          </div>
+          <div class="img" data-category="graphic">
+            <img src="./images/portfolio/6.jpg" alt="portfolio" />
+          </div>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start DashBords -->
+    <div class="dashbords main-style">
+      <div class="container">
+        <div class="row">
+          <div class="item">
+            <i class="fa fa-users"></i>
+            <h3 class="num">993</h3>
+            <h5 class="label">team members</h5>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-file"></i>
+            <h3 class="num">160</h3>
+            <h5 class="label">team members</h5>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+            <h3 id="countElement" class="num">235</h3>
+            <h5 class="label">team members</h5>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-mug-saucer"></i>
+            <h3 class="num">1506</h3>
+            <h5 class="label">team members</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End DashBords -->
+    <!-- Start testmonials -->
+    <div id="testmonials" class="testmonials main-style">
+      <div class="container">
+        <div class="main-title">
+          <h2>Client's Feedback</h2>
+        </div>
+        <div
+          id="testimonial"
+          class="active-testimonial testimonial first-child"
+        >
+          <div class="inner">
+            <div class="img">
+              <img src="./images/feedback.jpg" alt="feedback Review" />
+            </div>
+            <div class="info">
+              <h3>alex ander</h3>
+              <h4>
+                <i class="fa-solid fa-location-dot"></i>
+                united
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                laudantium dignissimos debitis optio! Exercitationem adipisicing
+                elit.
+              </p>
+              <div class="starts">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div class="clear-fix"></div>
+          </div>
+        </div>
+        <div id="testimonial" class="testimonial">
+          <div class="inner">
+            <div class="img">
+              <img src="./images/feedback2.jpg" alt="feedback Review" />
+            </div>
+            <div class="info">
+              <h3>alex ander</h3>
+              <h4>
+                <i class="fa-solid fa-location-dot"></i>
+                united
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                laudantium dignissimos debitis optio! Exercitationem adipisicing
+                elit.
+              </p>
+              <div class="starts">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i
+                ><i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div class="clear-fix"></div>
+          </div>
+        </div>
+        <div class="controls">
+          <div onclick="showPreviousTestimonial()" class="arrow"></div>
+          <div onclick="showNextTestimonial()" class="arrow prev"></div>
+        </div>
+      </div>
+    </div>
+    <!-- ENd testmonials -->
+    <!-- Start Blog -->
+    <div id="blog" class="blog main-style">
+      <div class="container">
+        <div class="main-title">
+          <h2>our blog</h2>
+        </div>
+        <div class="col">
+          <div class="img">
+            <img src="./images/blog/32.jpg" alt="blog" />
+          </div>
+          <div class="text">
+            <p>17 May, 2017</p>
+            <h3>Full Width Blog Post</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequuntur ea, quis magnam deserunt eius incidunt repellat
+              molestiae.
+            </p>
+            <div class="link">
+              <a href="#">Read More</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="img">
+            <iframe
+              width="560"
+              height="315"
+              allowfullscreen="false"
+              allow="autoplay; encrypted-media"
+              src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed"
+            ></iframe>
+          </div>
+          <div class="text">
+            <p>20 April, 2018</p>
+            <h3>Development Blog Post</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequuntur ea, quis magnam deserunt eius incidunt repellat
+              molestiae.
+            </p>
+            <div class="link">
+              <a href="#">Read More</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="img">
+            <img src="./images/blog/12.jpg" alt="blog" />
+          </div>
+          <div class="text">
+            <p>23 November, 2015</p>
+            <h3>Web Design Blog Post</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequuntur ea, quis magnam deserunt eius incidunt repellat
+              molestiae.
+            </p>
+            <div class="link">
+              <a href="#">Read More</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Blog -->
+    <!-- Start Contact US -->
+    <div id="contact" class="contact-us main-style">
+      <div class="container">
+        <div class="main-title">
+          <h2>Contact Us</h2>
+        </div>
+        <form action="" method="post">
+          <div class="inputs">
+            <input required type="text" name="userName" placeholder="  Name" />
+            <input required type="email" name="email" placeholder="  Email" />
+          </div>
+          <input
+            class="subject"
+            type="text"
+            required
+            placeholder=" Subject"
+            name="Subject"
+          />
+          <textarea
+            required
+            placeholder="Message for me"
+            name="message"
+          ></textarea>
+          <div class="btn">
+            <button type="submit">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact US -->
+    <!-- Start Footer -->
+    <div id="footer" class="footer main-style">
+      <div class="container">
+        <div class="icnos">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="title">
+          <div id="year">Copy Right</div>
+          <div>© By <span>Marwan Abubakr</span> All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+  </body>
+  <script src="./js/index.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </html>
